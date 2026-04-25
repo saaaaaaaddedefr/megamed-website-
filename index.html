@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pizza MegaMed</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="./logo.png" width="200">
+    <h1>Pizza MegaMed</h1>
+    <p>Best Pizza, Tacos & Fast Food 🔥</p>
+  </header>
+
+  <!-- MENU -->
+  <section class="menu">
+
+    <div class="card">
+      <img src="square_burger.jpg" width="300">
+      <h2>Pizza</h2>
+      <button onclick="order('Pizza')">Order</button>
+    </div>
+
+    <div class="card">
+      <img src="square_tacos.jpg" width="10">
+      <h2>Tacos</h2>
+      <button onclick="order('Tacos')">Order</button>
+    </div>
+
+    <div class="card">
+      <img src="square_burger.jpg">
+      <h2>Burger</h2>
+      <button onclick="order('Burger')">Order</button>
+    </div>
+
+    <div class="card">
+      <img src="square_sandwich mega.jpg" width="300">
+      <h2>Sandwich Mega</h2>
+      <button onclick="order('Sandwich')">Order</button>
+    </div>
+
+    <div class="card">
+      <img src="square_crispy chiken.jpg">
+      <h2>Crispy</h2>
+      <button onclick="order('Crispy')">Order</button>
+    </div>
+
+    <div class="card">
+      <img src="square_pasticcio.jpg">
+      <h2>Pasticio</h2>
+      <button onclick="order('Pasticio')">Order</button>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <a href="https://wa.me/212XXXXXXXXX" target="_blank">
+      Order via WhatsApp 📱
+    </a>
+
+    <a href="#" target="_blank">
+      Order on Glovo 🛵
+    </a>
+  </section>
+
+  <script>
+    function order(product){
+      alert("You selected: " + product + "\\nOrder via WhatsApp coming soon!");
+    }
+  </script>
+
+</body>
+</html>
